@@ -1,0 +1,25 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+#titolo{
+    background-color: black;
+}
+
+#titolo > h1{
+    font-size: 50px;
+    color: yellow;
+}
+
+#container > img{
+    max-width: 100%;
+}

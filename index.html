@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- title -->
+    <title>My First Vue JS</title>
+</head>
+<body>
+    
+    <div id="container">
+
+        <!-- definisco l'elemento di riferimento dove agirà il valore definito per la proprietà nell'istanza Vue tramite la sintassi baffo -->
+        <div id="titolo">
+            <h1>{{ message }}</h1>
+        </div>
+        
+
+        <!-- utilizzo il v-bind per inserire l'url contenuto nella proprietà "immagine" presente in data() -->
+        <img :src= "immagine" alt="">
+        
+    </div>
+
+
+    <!-- vue js -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <!-- my js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
